@@ -1,0 +1,65 @@
+/*------------------MAIN------------------*/
+body{
+    background-image: url(images/bg-img.jpg);
+    background-size: 100%;
+}
+.form-label{
+    color:#CD0404;
+    font-family: 'Righteous', cursive;
+    font-size:25px;
+    background-color: #FFFFFF;
+    border:3px solid rgb(37, 140, 37);
+    border-radius:23px;
+    width:19%;
+    text-align: center;
+}
+.heading{
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-weight:600;
+    font-size:50px;
+    margin:2%;
+    padding:1% 0 0 0;
+    border:5px solid #CD0404;
+    display:inline-block;
+    /*color:#FF7777;*/
+    color:white;
+    border-radius: 25px;
+}
+.form-control{
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    background-color: transparent;
+    border:3px solid rgb(37, 140, 37);
+}
+.form-control:focus{
+    color:white;
+    background-color: transparent;
+    border:7px solid rgb(37, 140, 37);
+}
+#result{
+    border:5px solid rgb(37, 140, 37);
+}
+#resultlab{
+    width:10%;
+}
+/*------------------------------------------*/
+
+/*------------------RESPONSIVE SETTINGS------------------*/
+
+@media screen and (max-width: 992px) {
+    #resultlab{
+        width:125px;
+    }
+    #htmllab{
+        width:95px;
+    }
+    .form-label{
+        margin:20px 0px;
+    }
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
+
+/*-------------------------------------------------------*/
